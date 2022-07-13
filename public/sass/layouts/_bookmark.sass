@@ -1,0 +1,46 @@
+.bookmarks-modal
+    position: fixed
+    top: 0
+    left: 0
+    background: #5248486b
+    -webkit-backdrop-filter: blur(2px)
+    backdrop-filter: blur(2px)
+    width: 100vw
+    height: 100vh
+    z-index: 12
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    .bookmarks-wrapper
+        width: 80vw
+        height: 65vh
+        overflow: auto
+        background: var(--color-light)
+        padding: 2rem
+        border-radius: .8rem
+        display: flex
+        flex-direction: column
+        gap: .5rem
+        background-image: url('https://images.theconversation.com/files/172794/original/file-20170607-6583-1ow76hn.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip')
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+        background-blend-mode: overlay
+        .bookmark
+            background: var(--color-white)
+            border-radius: .3rem
+            padding: .5rem
+            display: flex
+            align-items: center
+            justify-content: space-between
+            .user
+                display: flex
+                align-items: center
+                gap: 1rem
+        #noBookmarks
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            text-align: center

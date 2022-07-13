@@ -1,0 +1,99 @@
+@use '../utils/_mixins.sass' as *
+main .container .left
+    height: max-content
+    position: sticky
+    top: var(--sticky-top-left)
+    transition: all .3s
+    .profile
+        padding: var(--card-padding)
+        background: var(--color-white)
+        border-radius: var(--card-border-radius)
+        @include flex(row, unset, center)
+        column-gap: 1rem
+        width: 100%
+    .sidebar
+        margin-top: 1rem
+        background: var(--color-white)
+        border-radius: var(--card-border-radius)
+        .menu-item
+            @include flex(row, unset, center)
+            height: 4rem
+            cursor: pointer
+            transition: all 300ms ease
+            position: relative
+            &:hover
+                background: var(--color-light)
+            &:first-child.active
+                border-top-left-radius: var(--card-border-radius)
+                overflow: hidden
+            &:last-child.active
+                border-bottom-left-radius: var(--card-border-radius)
+                overflow: hidden
+        i
+            font-size: 1.4rem
+            color: var(--color-gray)
+            margin-left: 2rem
+            position: relative
+            .counter
+                background: var(--color-danger)
+                color: white
+                font-size: .7rem
+                width: -webkit-fit-content
+                width: -moz-fit-content
+                width: fit-content
+                border-radius: .8rem
+                padding: .1rem .4rem
+                font-style: normal
+                font-weight: bold
+                @include position(absolute, -0.5rem,unset,unset, -0.5rem)
+        h3
+            margin-left: 1.5rem
+            font-size: 1rem
+        .active
+            background: var(--color-light)
+            i, h3
+                color: var(--color-primary)
+            &::before
+                content: ""
+                display: block
+                width: .3rem
+                height: 100%
+                position: absolute
+                background: var(--color-primary)
+    .btn
+        margin-top: 1rem
+        width: 100%
+        text-align: center
+        padding: 1rem 0
+    .notification-popup
+        @include boxModal(70vw,53vh,var(--card-padding),'unset')
+        max-width: 450px
+        position: fixed
+        background: var(--color-light)
+        padding: 10px
+        height: 50vh
+        overflow: auto
+        // top: 14rem
+        left: 7rem
+        border: 2px solid var(--color-primary)
+        z-index: 3
+        border-radius: 10px
+        
+        > div
+            display: flex
+            align-items: start
+            gap: 1rem
+            margin-bottom: 1rem
+            background: var(--color-white)
+            border-radius: 10px
+            padding: .5rem
+        small
+            color: var(--color-primary)
+            background: var(--color-black)
+            padding: .2rem
+            border-radius: 5px
+            position: absolute
+            right: 5vw
+            // font-size: 11px
+            font-weight: bold
+            margin-top: .1rem

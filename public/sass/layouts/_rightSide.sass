@@ -1,0 +1,77 @@
+main .container .right
+    height: max-content
+    position: sticky
+    top: var(--sticky-top-right)
+    border-radius: 10px
+    bottom: 0
+    
+    .messages
+        background: var(--color-white)
+        border-radius: var(--card-border-radius)
+        padding: var(--card-padding)
+        background-image: url('./../images/feed-1.jpg')
+        background-position: center
+        background-size: cover
+        background-blend-mode: soft-light
+        .heading h4
+            display: flex
+            align-items: center
+            justify-content: start
+            flex-basis: 100%
+            gap: 0.5rem
+        .category
+            margin-bottom: 1rem
+            h6
+                padding-bottom: 0.5rem
+                font-size: .85rem
+        .message
+            display: flex
+            gap: 1rem
+            margin-bottom: 1rem
+            align-items: start
+            &:last-child
+                margin: 0
+            p
+                font-size: 0.8rem
+            .profile-photo
+                position: relative
+                .active
+                    width: .7rem
+                    height: .7rem
+                    border-radius: 50%
+                    border: 3px solid var(--color-white)
+                    background: var(--color-success)
+                    position: absolute
+                    bottom: 3px
+                    right: 5px
+        .message-requests
+            color: var(--color-primary)
+
+    .heading
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 1rem
+        i
+            font-size: 1.4rem
+    .search-bar
+        display: flex
+        margin-bottom: 1rem
+    .friend-requests
+        margin-top: 1rem
+        h4
+            color: var(--color-gray)
+            margin: 1rem
+            font-size: .85rem
+    .request
+        background: var(--color-white)
+        padding: var(--card-padding)
+        border-radius: var(--card-border-radius)
+        margin-bottom: 0.7rem
+        .info
+            display: flex
+            gap: 1rem
+            margin-bottom: 1rem
+        .action
+            display: flex
+            gap: 1rem

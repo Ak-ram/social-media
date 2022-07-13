@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css"
+      integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Social Media Website</title>
+  </head>
+  <body>
+    <!-------------------------------- Navbar ------------------------->
+    <nav>
+      <div class="container">
+        <h2 class="logo">Akramko</h2>
+        <div class="search-bar">
+          <i class="bi bi-search"></i>
+          <input
+            type="search"
+            placeholder="Search for creators, inspirations, and projects"
+          />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create-posts">Create</label>
+          <div class="profile-photo">
+            <img src="./images/profile-11.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--------------------------------- Main -------------------------->
+    <main>
+      <div class="container" id="container">
+        <!-- Left side -->
+        <div class="left" id="left">
+          <!-- <a class="profile">
+            <div class="profile-photo">
+              <img src="./images/profile-11.jpg" alt="" />
+            </div>
+            <div class="handle">
+              <h4>Diana Ayl</h4>
+              <p class="text-muted">@day1</p>
+            </div>
+          </a> -->
+
+
+
+
+          <!-- SIDEBAR -->
+          <div class="sidebar">
+              <a class="menu-item active">
+                <span><i class="bi bi-house-door"></i></span>
+                <h3>Home</h3>
+              </a>
+
+              <a class="menu-item" id="notifications"
+                ><span
+                  ><i class="bi bi-bell"><small class="counter">9+</small></i>
+                </span>
+                <h3>Notifications</h3></a
+              >
+              <!-- Notification popup -->
+              <div class="notification-popup d-none"></div>
+              <a class="menu-item" id="messages-notifications"
+                ><span
+                  ><i class="bi bi-chat-dots"
+                    ><small class="counter">4</small></i
+                  ></span
+                >
+                <h3>Messages</h3></a
+              >
+              <a class="menu-item" id="bookmark"
+                ><span><i class="bi bi-bookmark-check"></i></span>
+                <h3>Bookmarks</h3></a
+              >
+              <a class="menu-item"
+                ><span><i class="bi bi-graph-up-arrow"></i></span>
+                <h3>Analytics</h3></a
+              >
+              <a class="menu-item" id="theme"
+                ><span><i class="bi bi-palette"></i></span>
+                <h3>Theme</h3></a
+              >
+          </div>
+          
+          <!-- End of sidebar -->
+
+          <label for="create-post" class="btn btn-primary">Create Post</label>
+        </div>
+        <!--=================== Middle content ======================-->
+        <div class="middle" id="middle">
+          <!-- Stories -->
+          <div class="stories"></div>
+          <!-- End of stories -->
+          <form action="" class="create-post">
+            <div class="profile-photo">
+              <img src="./images/profile-11.jpg" alt="" />
+            </div>
+            <input type="text" placeholder="What's in your mind" />
+            <input type="submit" value="Post" class="btn btn-primary" />
+          </form>
+
+          <!------------------- START OF FEEDS ----------->
+          <div class="feeds"></div>
+          <!------------------- END OF FEEDS ----------->
+        </div>
+        <!-- End of Middle -->
+
+        <!--=========== Right side============== -->
+        <div class="right d-none-small" id="right">
+          <div class="messages">
+            <div class="heading">
+              <h4><i class="bi bi-envelope"></i> Messages</h4>
+            </div>
+            <!-- Search Bar -->
+            <div class="search-bar">
+              <i class="bi bi-search"></i>
+              <input
+                id="msg-search-bar"
+                type="search"
+                placeholder="Search messages"
+              />
+            </div>
+            <!-- Messages category -->
+            <div class="category">
+              <h6 class="active">Recently Messages</h6>
+            </div>
+          </div>
+          <!-- End of messages -->
+          <!-- Friend Requests -->
+          <div class="friend-requests">
+            <h4>Friend Requests</h4>
+            <!-- Request start -->
+          </div>
+        </div>
+        <!-- End of Right -->
+      </div>
+    </main>
+
+    <!-- =================================== Theme Customization =============================================== -->
+
+    <div class="customize-theme d-none">
+      <div class="card">
+        <h2>Customize Your View</h2>
+        <p class="text-muted">Manage Your Font size, color, and background</p>
+        <!-- Font sizes -->
+        <div class="font-size">
+          <h4>Font Size</h4>
+          <div>
+            <h6>Aa</h6>
+            <div class="choose-size">
+              <span class="font-size-1"></span>
+              <span class="font-size-2 active"></span>
+              <span class="font-size-3"></span>
+              <span class="font-size-4"></span>
+              <span class="font-size-5"></span>
+            </div>
+            <h3>Aa</h3>
+          </div>
+        </div>
+        <!-- Primary colors -->
+        <div class="color">
+          <h4>color</h4>
+          <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
+          </div>
+        </div>
+        <!-- Background colors -->
+        <div class="background">
+          <h4>Background</h4>
+          <div class="choose-bg">
+            <div class="bg-1 active">
+              <span></span>
+              <h5 for="bg-1">Light</h5>
+            </div>
+            <div class="bg-2">
+              <span></span>
+              <h5 for="bg-2">Dim</h5>
+            </div>
+            <div class="bg-3">
+              <span></span>
+              <h5 for="bg-3">Lights &nbsp; Out</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================================== Bookmark Modal =============================================== -->
+    <section class="bookmarks-modal d-none" id="bookmarksModal">
+      <div class="bookmarks-wrapper" id="bookmarksWrapper">
+        <h1 class="">Bookmarks</h1>
+        <h2 id="noBookmarks">You have no Bookmarks 😔</h2>
+      </div>
+    </section>
+
+    <!-- =================================== Loading Indicators =============================================== -->
+
+    <section class="indicator">
+      <div class="wrapper">
+        <div class="item item-1"></div>
+        <div class="item item-2"></div>
+        <div class="item item-3"></div>
+        <div class="item item-4"></div>
+      </div>
+    </section>
+
+    <script src="./main.js" defer></script>
+    <!-- <script src="./index.js" ></script> -->
+  </body>
+</html>

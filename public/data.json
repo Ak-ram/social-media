@@ -1,0 +1,532 @@
+[
+  {
+    "stories": [
+      {
+        "userName": "Ayman Hasan",
+        "userUrl": "/images/story-3.jpg",
+        "storyUrl": "./images/story-1.jpg"
+      },
+      {
+        "userName": "Ayman Hasan",
+        "userUrl": "/images/story-3.jpg",
+        "storyUrl": "./images/story-1.jpg"
+      },
+      {
+        "userName": "Ayman Hasan",
+        "userUrl": "/images/story-3.jpg",
+        "storyUrl": "./images/story-1.jpg"
+      },
+      {
+        "userName": "Ayman Hasan",
+        "userUrl": "/images/story-3.jpg",
+        "storyUrl": "./images/story-1.jpg"
+      },
+      {
+        "userName": "Ayman Hasan",
+        "userUrl": "/images/story-3.jpg",
+        "storyUrl": "./images/story-1.jpg"
+      },
+      {
+        "userName": "Ayman Hasan",
+        "userUrl": "/images/story-3.jpg",
+        "storyUrl": "./images/story-1.jpg"
+      },
+      {
+        "userName": "Ayman Hasan",
+        "userUrl": "/images/story-3.jpg",
+        "storyUrl": "./images/story-1.jpg"
+      }
+    ]
+  },
+  
+  {
+    "friendRequests": [
+      {
+        "userUrl": "./images/profile-15.jpg",
+        "userName": "Keke Başoğlu",
+        "mutal": "12"
+      },
+      {
+        "userUrl": "./images/profile-16.jpg",
+        "userName": "Evelise Batur",
+        "mutal": "42"
+      },
+      {
+        "userUrl": "./images/profile-17.jpg",
+        "userName": "Benjamín Samaniego",
+        "mutal": "24"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "32"
+      },
+      {
+        "userUrl": "./images/profile-19.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "29"
+      },
+      {
+        "userUrl": "./images/profile-20.jpg",
+        "userName": "Rasmus Christensen",
+        "mutal": "9"
+      },
+      {
+        "userUrl": "./images/profile-9.jpg",
+        "userName": "Charly Martin",
+        "mutal": "7"
+      },
+      {
+        "userUrl": "./images/profile-10.jpg",
+        "userName": "Sara Warren",
+        "mutal": "4"
+      },
+      {
+        "userUrl": "./images/profile-11.jpg",
+        "userName": "Jason Wells",
+        "mutal": "9"
+      },
+      {
+        "userUrl": "./images/profile-12.jpg",
+        "userName": "Ada Sundgot",
+        "mutal": "81"
+      },
+      {
+        "userUrl": "./images/profile-13.jpg",
+        "userName": "Onni Halla",
+        "mutal": "12"
+      },
+      {
+        "userUrl": "./images/profile-14.jpg",
+        "userName": "Salustiano Barbosa",
+        "mutal": "72"
+      }
+    ]
+  },
+ 
+  {
+    "messages": [
+      {
+        "userUrl": "./images/profile-1.jpg",
+        "userName": "Keke Başoğlu",
+        "msgBody": "A compassionate world"
+      },
+      {
+        "userUrl": "./images/profile-2.jpg",
+        "userName": "Salustiano Barbosa",
+        "msgBody": "Inner and outer peace"
+      },
+      {
+        "userUrl": "./images/profile-3.jpg",
+        "userName": "Onni Halla",
+        "msgBody": "I work in an office"
+      },
+      {
+        "userUrl": "./images/profile-4.jpg",
+        "userName": "Živan Marinković",
+        "msgBody": "Just work up bruh"
+      },
+      {
+        "userUrl": "./images/profile-5.jpg",
+        "userName": "Mo Van Hassel",
+        "msgBody": "I do NOT work in an office"
+      },
+      {
+        "userUrl": "./images/profile-6.jpg",
+        "userName": "Addison Evans",
+        "msgBody": "Full time student and rockin' it!"
+      },
+      {
+        "userUrl": "./images/profile-7.jpg",
+        "userName": "Darko Beetz",
+        "msgBody": "I am a traveler"
+      }
+    ]
+  },
+  
+  {
+    "feeds": [
+      {
+        "profilePhoto": "./images/feed-6.jpg",
+        "userName": "Jack Ma",
+        "location": "Canada",
+        "postTime": "25 Minutes Ago",
+        "postContent": "./images/feed-8.gif",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-6.jpg",
+            "name": "Vlastimir Grujić"
+          },
+          "userTwo": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Anaisha Dawangave"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Obrad Pavić"
+          }
+        },
+        "commentsNumber": 209
+      },
+      {
+        "profilePhoto": "./images/feed-3.jpg",
+        "userName": "Silje Johansen",
+        "location": "Denmark",
+        "postTime": "15 Minutes Ago",
+        "postContent": "./images/feed-1.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-6.jpg",
+            "name": "Shaun Carlson"
+          },
+          "userTwo": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Mira Ilić"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Camille Roy"
+          }
+        },
+        "commentsNumber": 219
+      },
+      {
+        "profilePhoto": "./images/feed-4.jpg",
+        "userName": "Idris Nur",
+        "location": "Norway",
+        "postTime": "1 Day Ago",
+        "postContent": "./images/feed-2.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Levina Cherskiy"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Terri Barnett"
+          },
+          "userThree": {
+            "photo": "./images/feed-2.jpg",
+            "name": "Dorothea Moulin"
+          }
+        },
+        "commentsNumber": 313
+      },
+
+      {
+        "profilePhoto": "./images/feed-5.jpg",
+        "userName": "Borre Opheij",
+        "location": "Netherlands",
+        "postTime": "9 days Ago",
+        "postContent": "./images/feed-3.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Elias Olsen"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Mariel Roth"
+          },
+          "userThree": {
+            "photo": "./images/feed-2.jpg",
+            "name": "Kuzey Tazegül"
+          }
+        },
+        "commentsNumber": 229
+      },
+      
+      {
+        "profilePhoto": "./images/feed-5.jpg",
+        "userName": "Hazem Ragab",
+        "location": "Beni-Suef",
+        "postTime": "1 Day Ago",
+        "postContent": "./images/feed-5.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Sara Ali"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Mai Ahmed"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 33
+      },
+
+      {
+        "profilePhoto": "./images/feed-3.jpg",
+        "userName": "Ayman Hasan",
+        "location": "Egypt",
+        "postTime": "9 Minutes Ago",
+        "postContent": "./images/feed-6.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ali Ashraf"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Akram Ashraf"
+          },
+          "userThree": {
+            "photo": "./images/feed-2.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 229
+      },
+      {
+        "profilePhoto": "./images/feed-7.jpg",
+        "userName": "Mona Fahmy",
+        "location": "Cairo",
+        "postTime": "5 Minutes Ago",
+        "postContent": "./images/feed-7.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-6.jpg",
+            "name": "Ali Ashraf"
+          },
+          "userTwo": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Akram Ashraf"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 219
+      },
+      {
+        "profilePhoto": "./images/feed-2.jpg",
+        "userName": "Heidi Uthaug",
+        "location": "Norway",
+        "postTime": "4 Day Ago",
+        "postContent": "./images/feed-2.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Meral Özbey"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Mai Uthaug"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Özbey Heidi"
+          }
+        },
+        "commentsNumber": 33
+      },
+
+      {
+        "profilePhoto": "./images/feed-1.jpg",
+        "userName": "Ayman Hasan",
+        "location": "Egypt",
+        "postTime": "9 Minutes Ago",
+        "postContent": "./images/feed-1.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ali Ashraf"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Akram Ashraf"
+          },
+          "userThree": {
+            "photo": "./images/feed-2.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 229
+      },
+      {
+        "profilePhoto": "./images/feed-3.jpg",
+        "userName": "Mona Fahmy",
+        "location": "Cairo",
+        "postTime": "5 Minutes Ago",
+        "postContent": "./images/feed-1.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-6.jpg",
+            "name": "Ali Ashraf"
+          },
+          "userTwo": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Akram Ashraf"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 219
+      },
+      {
+        "profilePhoto": "./images/feed-5.jpg",
+        "userName": "Hazem Ragab",
+        "location": "Beni-Suef",
+        "postTime": "1 Day Ago",
+        "postContent": "./images/feed-6.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Sara Ali"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Mai Ahmed"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 33
+      },
+
+      {
+        "profilePhoto": "./images/feed-7.jpg",
+        "userName": "Ayman Hasan",
+        "location": "Egypt",
+        "postTime": "9 Minutes Ago",
+        "postContent": "./images/feed-2.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ali Ashraf"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Akram Ashraf"
+          },
+          "userThree": {
+            "photo": "./images/feed-2.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 229
+      },
+      {
+        "profilePhoto": "./images/feed-1.jpg",
+        "userName": "Mona Fahmy",
+        "location": "Cairo",
+        "postTime": "5 Minutes Ago",
+        "postContent": "./images/feed-4.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-6.jpg",
+            "name": "Ali Ashraf"
+          },
+          "userTwo": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Akram Ashraf"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 219
+      },
+      {
+        "profilePhoto": "./images/feed-2.jpg",
+        "userName": "Hazem Ragab",
+        "location": "Beni-Suef",
+        "postTime": "1 Day Ago",
+        "postContent": "./images/feed-7.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-3.jpg",
+            "name": "Sara Ali"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Mai Ahmed"
+          },
+          "userThree": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Ahmed Yassen"
+          }
+        },
+        "commentsNumber": 33
+      },
+
+      {
+        "profilePhoto": "./images/feed-3.jpg",
+        "userName": "Wyatt Perkins",
+        "location": "United States",
+        "postTime": "19 Minutes Ago",
+        "postContent": "./images/feed-5.jpg",
+        "likedBy": {
+          "userOne": {
+            "photo": "./images/feed-4.jpg",
+            "name": "Armin Klepp"
+          },
+          "userTwo": {
+            "photo": "./images/feed-1.jpg",
+            "name": "Mateusz Fjellvang"
+          },
+          "userThree": {
+            "photo": "./images/feed-2.jpg",
+            "name": "Asya Van Zuijlen"
+          }
+        },
+        "commentsNumber": 229
+      }
+    ]
+  },
+  
+  {
+    "notification": [
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "22"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "12"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "122"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "2"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "5"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "45"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "1"
+      },
+      {
+        "userUrl": "./images/profile-18.jpg",
+        "userName": "Keke Benjamine",
+        "mutal": "23"
+      }
+    ]
+  }
+]

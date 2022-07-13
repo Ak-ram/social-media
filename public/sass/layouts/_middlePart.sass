@@ -1,0 +1,155 @@
+@use '../utils/_mixins.sass' as *
+main .container .middle
+    max-width: 98vw
+main .container .middle .stories
+    @include flex(row, space-between, stretch)
+    height: 12rem
+    gap: .5rem
+    overflow-x: scroll
+    &::-webkit-scrollbar
+        height: 5px
+    .story
+        padding: var(--card-padding)
+        border-radius: var(--card-border-radius)
+        @include flex(column, space-between, center)
+        color: #fff
+        font-size: .75rem
+        width: 100%
+        position: relative
+        overflow: hidden
+        min-width: 100px
+        cursor: pointer
+        &::before
+            content: ""
+            display: block
+            width: 100%
+            height: 5rem
+            background: linear-gradient(transparent,rgba(0,0,0,0.75))
+            @include position(absolute,unset,unset,0,unset)
+        &:nth-child(1)
+            background: url('../images/story-1.jpg') no-repeat center center/cover
+        &:nth-child(2)
+            background: url('../images/story-2.jpg') no-repeat center center/cover
+        &:nth-child(3)
+            background: url('../images/story-3.jpg') no-repeat center center/cover
+        &:nth-child(4)
+            background: url('../images/story-4.jpg') no-repeat center center/cover
+        &:nth-child(5)
+            background: url('../images/story-5.jpg') no-repeat center center/cover
+        &:nth-child(6)
+            background: url('../images/story-6.jpg') no-repeat center center/cover
+            
+        .name
+            z-index: 2
+        .profile-photo
+            width: 2rem
+            height: 2rem
+            align-self: start
+            border: 3px solid var(--color-primary)
+
+.middle .create-post
+    width: 100%
+    @include flex(row, space-between, center)
+    margin-top: 1rem
+    background: var(--color-white)
+    padding: .4rem var(--card-padding)
+    border-radius: var(--border-radius)
+    input[type='text']
+        justify-self: start
+        width: 100%
+        padding-left: 1rem
+        background: transparent
+        color: var(--color-dark)
+        margin-right: 1rem
+////// FEEDS
+
+.middle .feeds
+    .feed
+        background: var(--color-white)
+        border-radius: var(--card-border-radius)
+        padding: var(--card-padding)
+        margin: 1rem 0
+        font-size: .85rem
+        line-height: 1.5
+        .head
+            display: flex
+            justify-content: space-between
+            .user
+                display: flex
+                gap: 1rem
+            > span
+                cursor: pointer
+                min-width: 110px
+                overflow: scroll
+                display: flex
+                justify-content: end
+                gap: .5rem
+                // flex-basis: 110px
+                &::-webkit-scrollbar
+                    height: 0px
+                    width: 0px
+            .delete-post
+                border-radius: 5px
+                height: -moz-fit-content
+                height: -webkit-fit-content
+                height: fit-content
+                padding: 5px 9px
+                font-weight: bold
+                font-size: min(12px,3vw)
+                width: -moz-fit-content
+                width: -webkit-fit-content
+                width: fit-content
+                background: var(--color-light)
+                color: var(--color-danger)
+            .confirm-deletion
+                color: #ff1f1f
+                background: #ff000024
+            .cancel-deletion
+                background: #2dff2d45
+                color: #06c506
+        .photo,video
+            border-radius: var(--card-border-radius)
+            overflow: hidden
+            margin: 0.7rem 0
+            position: relative
+            width: 100%
+            .liked-btn
+                transform: translate(-50%, -50%)
+                -webkit-backdrop-filter: blur(3px) brightness(0.8)
+                backdrop-filter: blur(3px) brightness(0.8)
+                font-size: 100px
+                color: red
+                @include flex(column, center, center)
+                @include boxModal(100%,100%,unset,unset)
+                @include position(absolute, 50%, unset,unset,50%)
+                &::before
+                    animation: scale 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards
+        .action-button
+            @include flex(row, space-between, center)
+            font-size: 1.4rem
+            margin: .6rem
+            .interaction-buttons
+                @include flex(row, center, center)
+                span,div
+                    width: 30px
+                    height: 30px
+                    cursor: pointer
+            .bookmark
+                color: var(--color-primary)
+        .liked-by
+            display: flex
+            margin-bottom: 1rem
+            span
+                width: 1.4rem
+                min-width: 1.4rem
+                height: 1.4rem
+                min-height: 1.4rem
+                display: block
+                border-radius: 50%
+                overflow: hidden
+                border: 2px solid var(--color-white)
+                margin-left: -0.6rem
+                &:first-child
+                    margin: 0
+            p
+                margin-left: 0.5rem

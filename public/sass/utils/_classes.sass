@@ -1,0 +1,61 @@
+.bi-heart-fill
+    color: red
+.d-none
+    display: none !important
+.d-none-small
+    @media screen and (max-width: 992px)
+        display: none !important
+.container
+    width: 80%
+    margin: 0 auto
+.profile-photo
+    width: 2.7rem
+    height: 2.7rem
+    aspect-ratio: 1/1
+    border-radius: 50%
+    overflow: hidden
+img
+    display: block
+    width: 100%
+    height: 100%
+
+.btn
+    display: inline-block
+    padding: var(--btn-padding)
+    font-weight: 500
+    border-radius: var(--border-radius)
+    cursor: pointer
+    transition: all 300ms ease
+
+.btn:hover
+    opacity: .8
+
+.btn-primary
+    background: var(--color-primary)
+    color: white
+
+.cursor-pointer
+    cursor: pointer
+.text-bold
+    font-weight: 500
+.text-muted
+    color: var(--color-gray)
+
+    /////////// Navbar
+.search-bar
+    background: var(--color-light)
+    border-radius: var(--border-radius)
+    padding: var(--search-padding)
+    input[type='search']
+        background: transparent
+        width: 30vw
+        margin-left: 1rem
+        font-size: .9rem
+        color: var(--color-dark)
+        &::placeholder
+            color: var(--color-gray)
+
+
+.active-color
+    border: 3px solid #fff
+    box-shadow: 0 0 10px var(--color-primary)

@@ -1,0 +1,60 @@
+
+@media screen and (min-width: 1201px)
+    main .container
+        grid-template-columns: 23% 48% 23%
+@media screen and (max-width: 1200px)
+    .container
+        width: 96%
+    main .container
+        // grid-template-columns: 5rem auto 30vw 10% 63% 23%
+        grid-template-columns: 10% 63% 23%
+        gap: 1rem
+    .left
+        width: 5rem
+        z-index: 5
+        .profile
+            display: none
+        .btn
+            display: none
+    .sidebar h3
+        display: none
+    .customize-theme .card
+        width: 80vw
+
+////////// MEDIA QUERIES SMALL TABLETS AND MOBILE PHONES
+
+@media screen and (max-width: 992px)
+    nav .search-bar
+        display: none
+    main .container
+        grid-template-columns: auto 5rem
+        gap: 0
+        .left
+            grid-column: 75% // 3/4
+            position: fixed
+            bottom: 0
+            right: 0
+            // filter: drop-shadow(0 0 0.5rem #a5a5a5)
+            .notification-popup
+                left: unset
+                right: 100%
+                &::before
+                    display: absolute
+                    top: 1.3rem
+                    left: calc(20rem - .6rem)
+                    display: block
+        .middle
+            grid-column: 33.333333% // 1/3
+            .stories
+                width: 100%
+                &::-webkit-scrollbar
+                    height: 1px
+        .right
+            display: none
+    .customize-theme .card
+        width: 92vw
+        // width: 70vw
+
+@media screen and (max-width: 500px)
+    .customize-theme .card .choose-bg
+        flex-direction: column
